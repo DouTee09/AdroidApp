@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Intent_Service</string>
+    <string name="music_image_desc">Music Image</string>
+    <string name="play_button_desc">Play Button</string>
+    <string name="stop_button_desc">Stop Button</string>
+    <style name="Base.Theme.Intent_Service" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        
+        
+    </style>
+    <style name="Theme.Intent_Service" parent="Base.Theme.Intent_Service"/>
+</resources>

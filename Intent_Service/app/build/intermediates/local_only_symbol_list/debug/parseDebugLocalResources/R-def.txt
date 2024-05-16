@@ -1,0 +1,26 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable mymusic
+drawable pause
+drawable play
+drawable stop
+id btStop
+id btplay
+id imvMusic
+id main
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+raw trentinhbanduoitinhyeu
+string app_name
+string music_image_desc
+string play_button_desc
+string stop_button_desc
+style Base.Theme.Intent_Service
+style Theme.Intent_Service
+xml backup_rules
+xml data_extraction_rules

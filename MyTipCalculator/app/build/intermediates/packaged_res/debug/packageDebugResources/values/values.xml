@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">MyTipCalculator</string>
+    <string name="bill_amount"> </string>
+    <string name="bill_amount_label">Bill Amount</string>
+    <string name="btn_decrease">-</string>
+    <string name="btn_increase">+</string>
+    <string name="percent_label">15%</string>
+    <string name="tip_amount">$0.00</string>
+    <string name="tip_amount_label">Tip</string>
+    <string name="tip_percent_label">Percent</string>
+    <string name="total_amount">$0.00</string>
+    <string name="total_amount_label">Total</string>
+    <style name="Base.Theme.MyTipCalculator" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.MyTipCalculator" parent="Base.Theme.MyTipCalculator"/>
+</resources>

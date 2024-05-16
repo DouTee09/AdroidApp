@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imvMusic"
+        android:layout_width="match_parent"
+        android:layout_height="424dp"
+        android:src="@drawable/mymusic"
+        android:contentDescription="@string/music_image_desc" />
+
+    <ImageButton
+        android:id="@+id/btplay"
+        android:layout_width="80dp"
+        android:layout_height="90dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/play"
+        android:contentDescription="@string/play_button_desc" />
+
+    <ImageButton
+        android:id="@+id/btStop"
+        android:layout_width="80dp"
+        android:layout_height="90dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/stop"
+        android:contentDescription="@string/stop_button_desc" />
+
+</LinearLayout>

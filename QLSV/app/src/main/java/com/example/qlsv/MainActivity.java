@@ -6,6 +6,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
@@ -138,6 +139,24 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
+
+        lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Cursor c = mydatabase.query("tblop", null, null, null, null, null, null);
+                c.moveToPosition(position);
+
+                String malop = c.getString(c.getColumnIndexOrThrow("malop"));
+                String tenlop = c.getString(c.getColumnIndexOrThrow("tenlop"));
+                int siso = c.getInt(c.getColumnIndexOrThrow("siso"));
+
+                edtmalop.setText(malop);
+                edttenlop.setText(tenlop);
+                edtsiso.setText(String.valueOf(siso));
+            }
+        });
+
+
         LoadData();
     }
 
